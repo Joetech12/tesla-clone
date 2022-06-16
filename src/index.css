@@ -1,18 +1,31 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
 * {
   box-sizing: border-box;
-  font-family: "rubik", sans-serif;
+  font-family: 'Gotham', sans-serif;
   color: #393c41;
   margin: 0;
   padding: 0;
+
 }
+
+
+html {
+    overflow-x: hidden;
+    }
+    
 
 body {
     width: 100%;
-    overflow-x: hidden;
 }
 
 a{
     text-decoration: none;
+}
+
+h1{ 
+    font-size: 3rem;
+    font-weight: 500
 }
 
 
